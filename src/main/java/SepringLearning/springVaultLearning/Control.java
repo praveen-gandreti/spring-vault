@@ -13,6 +13,7 @@ public class Control {
 	@GetMapping("/demo")
 	public String demo()
 	{
+		System.out.println(password);
 		return password;
 	}
 
